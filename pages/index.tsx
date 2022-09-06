@@ -85,7 +85,7 @@ const Home: NextPage = () => {
   // Wallet connection logic
   const isWalletConnected = async () => {
     try {
-      const { ethereum } = window;
+      const { ethereum } = window as any;
 
       const accounts = await ethereum.request({ method: 'eth_accounts' })
       console.log("accounts: ", accounts);
@@ -118,7 +118,7 @@ const Home: NextPage = () => {
   const connectWallet = async () => {
     try {
 
-      const { ethereum } = window;
+      const { ethereum } = window as any;
 
       if (!ethereum) {
         console.log("please install MetaMask");
@@ -149,7 +149,7 @@ const Home: NextPage = () => {
 
   const buyCoffee = async (name: string, message: string, amount: number) => {
     try {
-      const { ethereum } = window;
+      const { ethereum } = window as any;
 
       if (ethereum) {
         const provider = new ethers.providers.Web3Provider(ethereum, "any");
@@ -191,7 +191,7 @@ const Home: NextPage = () => {
   // Function to fetch all memos stored on-chain.
   const getMemos = async () => {
     try {
-      const { ethereum } = window;
+      const { ethereum } = window as any;
       if (ethereum) {
         setCoffeesLoading(true)
         const provider = new ethers.providers.Web3Provider(ethereum);
@@ -246,7 +246,7 @@ const Home: NextPage = () => {
       console.log("Memo received: ", from, timestamp, name, message, amount);
     };
 
-    const { ethereum } = window;
+    const { ethereum } = window as any;
 
     // Listen for new memo events.
     if (ethereum) {
