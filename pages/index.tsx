@@ -33,7 +33,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const Home: NextPage = () => {
 
   // Contract Address & ABI
-  const contractAddress = "0x3b6Ee16622eE252d61f3d18BA19d3400A2CDE4Dd"; // TODO: env var
+  const contractAddress = "0xEb497B291E5535Ed363C5c60fC84eb596739C188"; // TODO: env var
   const contractABI = abi.abi;
 
   // Component state
