@@ -314,7 +314,7 @@ const Home: NextPage = () => {
               alignItems="center">
 
               <Grid item xs={2} sm={1}>
-                <a href={"https://linkedin.com/in/leandro-palazzolo-85350787/"}>
+                <a href={"https://linkedin.com/in/nfts9999/"}>
                   <LinkedIn sx={{ color: "#0077b5" }} />
                 </a>
               </Grid><Grid item xs={2} sm={1}>
