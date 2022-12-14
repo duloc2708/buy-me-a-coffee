@@ -33,7 +33,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const Home: NextPage = () => {
 
   // Contract Address & ABI
-  const contractAddress = "0xEb497B291E5535Ed363C5c60fC84eb596739C188"; // TODO: env var
+  const contractAddress = "0x90F7597B225A9df18983840F7f23ef460D8d0f8a"; // TODO: env var
   const contractABI = abi.abi;
 
   // Component state
@@ -202,9 +202,9 @@ const Home: NextPage = () => {
           signer
         );
 
-        console.log("fetching memos from the blockchain..");
+        console.log("fetching memos from the blockchain..",buyMeACoffee);
         const memos = await buyMeACoffee.getMemos();
-        console.log(memos)
+        console.log('memos',memos)
         const previousDonators: IDonation[] = []
         for (let index = memos.length - 1; index >= 0; index--) {
           const { address: account, name, message, amount } = memos[index];
