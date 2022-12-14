@@ -305,7 +305,7 @@ const Home: NextPage = () => {
             <Typography variant="h6" gutterBottom component="div">Bio</Typography>
             <br />
             <Typography variant="body1" gutterBottom>
-              {"Hey! I'm Leandro, I'm 27 and I live in Buenos Aires, Argentina. I work as a software engineer and this is my buy-me-a-coffee page. \nI created this web in my second week of the program #RoadToWeb3 because I'm learning about web3."}
+              {"Hey! I'm David Loc, I'm 30 and I live in Vietnam. I work as a software engineer and this is my buy-me-a-coffee page. \nI created this web in my second week of the program because I'm learning about web3."}
             </Typography>
             <br />
             <Grid container
