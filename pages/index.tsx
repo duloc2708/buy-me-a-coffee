@@ -284,8 +284,8 @@ const Home: NextPage = () => {
           <Item>
             <Paper variant="outlined" style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', backgroundImage: `url(${"/wallpaper.jpg"})` }}>
               <br />
-              <Typography variant="h1" gutterBottom component="div" color="common.white"> Leandro Palazzolo</Typography>
-              <Avatar alt="Leandro Palazzolo" src="/profile.jpg" sx={{ width: 240, height: 240, border: "3px solid lightseagreen" }} />
+              <Typography variant="h1" gutterBottom component="div" color="common.white">nfts9999</Typography>
+              <Avatar alt="Leandro Palazzolo" src="/profile-new.jpg" sx={{ width: 240, height: 240, border: "3px solid lightseagreen" }} />
               <br />
               <Typography variant="subtitle1" gutterBottom component="div" color="common.white">Black coffee, no sugar, please</Typography>
               <Typography variant="body1" gutterBottom color="common.white"> {donators.length}{" supporters"}</Typography>
@@ -318,24 +318,24 @@ const Home: NextPage = () => {
                   <LinkedIn sx={{ color: "#0077b5" }} />
                 </a>
               </Grid><Grid item xs={2} sm={1}>
-                <a href={"https://twitter.com/LeaplgZ"}>
+                <a href={"https://twitter.com/nfts9999"}>
                   <Twitter sx={{ color: "#1da1f2" }} />
                 </a>
               </Grid><Grid item xs={2} sm={1}>
-                <a href={"http://github.com/leapalazzolo"}>
+                <a href={"http://github.com/nfts9999"}>
                   <GitHub sx={{ color: "#24292e" }} />
                 </a>
               </Grid><Grid item xs={2} sm={1}>
 
-                <a href={"https://t.me/leapalazzolo"}>
+                <a href={"https://t.me/nfts9999"}>
                   <Telegram sx={{ color: "#0088cc" }} />
                 </a>            </Grid>
               <Grid item xs={2} sm={1}>
-                <a href={"mailto:leapalazzolo@gmail.com"}>
+                <a href={"mailto:nfts9999@gmail.com"}>
                   <Mail sx={{ color: "#c71610" }} />
                 </a>
               </Grid><Grid item xs={2} sm={1}>
-                <a href={"https://leapalazzolo.github.io/CV"}>
+                <a href={"https://nfts9999.github.io/CV"}>
                   <ContactPage sx={{ color: "#00a98f" }} />
                 </a>
               </Grid>
