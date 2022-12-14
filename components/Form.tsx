@@ -147,14 +147,14 @@ const Form: FC<Props> = ({ buyCoffee, success, loading, error, walletConnected, 
                     onClick={addNetwork}>
                     Switch Network
                 </LoadingButton>
-                {' =>'}
+                {' => '}
                 <LoadingButton loading={loading} variant="contained" color={'warning'}
                     onClick={() => {
                         window.open('https://goerlifaucet.com/', '_blank')
                     }}>
                     Faucet
                 </LoadingButton>
-                {' =>'}
+                {' => '}
                 <LoadingButton loading={loading} variant="contained" color={success ? "success" : (error ? "error" : "primary")}
                     onClick={handleOnClick}>
                     {walletConnected ? "Buy" : "Connect"}
